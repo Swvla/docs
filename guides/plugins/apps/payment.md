@@ -19,7 +19,7 @@ You may choose between a synchronous and an asynchronous payment method. These t
 
 Below you can see different definitions of payment methods.
 
-Depending on what urls you provide, Shopware knows, which kind of payment flow your payment method supports.
+Depending on the URLs you provide, Shopware knows which kind of payment flow your payment method supports.
 
 {% code title="manifest.xml" %}
 
