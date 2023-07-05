@@ -27,7 +27,7 @@ You can create your own payment handler by implementing one of the following int
 | AsynchronousPaymentHandlerInterface | `shopware.payment.method.async`     | A redirect to an external payment provider is required, e.g. PayPal                                |
 | PreparedPaymentHandlerInterface     | `shopware.payment.method.prepared`  | The payment was prepared beforehand and will only be validated and captured by your implementation |
 | RefundPaymentHandlerInterface       | `shopware.payment.method.refund`    | The payment allows refund handling                                                                 |
-| RecurringPaymentHandlerInterface    | `shopware.payment.method.recurring` | The payment allows recurring payments (e.g. subscriptions)                                         |
+| RecurringPaymentHandlerInterface    | `shopware.payment.method.recurring` | The payment allows recurring payments, e.g. subscriptions                                       |
 
 Depending on the interface, those methods are required:
 
