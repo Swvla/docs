@@ -693,7 +693,7 @@ function refund(RequestInterface $request): ResponseInterface
 Recurring orders and payments require the Subscriptions feature, available exclusively in our [paid plans](https://www.shopware.com/en/pricing/).
 {% endhint %}
 
-Recurring payments are a special case of payment, which is used for handling recurring orders, such as subscriptions. The request and response payloads are similar to the synchronous payment flow. At this point, a valid running billing agreement between the customer and the PSP should exist. Use any of the other payment flows to capture the initial order and create such an agreement during the checkout. Afterwards, for every recurring payment order, the payment can be captured via this flow.
+Recurring payments are a special case of payment that is used for handling recurring orders, such as subscriptions. The request and response payloads are similar to the synchronous payment flow. At this point, a valid running billing agreement between the customer and the PSP should exist. Use any of the other payment flows to capture the initial order and create such an agreement during the checkout. Afterwards, the payment can be captured via this flow for every recurring payment order.
 
 {% tabs %}
 
