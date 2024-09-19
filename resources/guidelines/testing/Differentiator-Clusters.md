@@ -13,6 +13,15 @@ This section will show you the new differentiator groups which needs to be fulfi
 * Cluster 4: Your extension is based on the app system and offers meaningful use cases that cannot be replicated with other comparable extensions.
 
 
+## An example of how the clusters are applied
+
+* You build an app: We check your app with other apps from the store to see if we already have similar ones. We use clusters 1 & 2 for this. One of these clusters with the respective conditions must be fulfilled so that it offers added value for Shopware store.
+
+* If no app is found, we compare your app with plugins using clusters 3 & 4. 
+
+* You build a plugin: We check your plugin with other plugins from the store to see if we already have similar ones. We use clusters 1 & 2 for this. 
+
+
 ## Examples of meaningful use of the Shopware standard 
 
 * Uses custom fields instead of own tables. This facilitates data management and querying and avoids inconsistencies or conflicts with the Shopware data model.
